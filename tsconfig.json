@@ -12,8 +12,16 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/Dropdowns/UserDropdown.js",
+    "components/Cards/CardSettings.js",
+    "components/Dropdowns/UserDropdown.js"
+  ],
   "exclude": ["node_modules"]
 }
